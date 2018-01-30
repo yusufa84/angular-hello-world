@@ -1,0 +1,24 @@
+ng new <app-name> 								#creates a new app-name For e.g. ng new sms
+ng serve										#starts the app-name
+ng generate component <path>/<component-name>	#creates new component For e.g. ng generate component components/register
+ng generate service <path>/<service-name>		#creates a new service For e.g. ng generate service services/login-redirect
+ng generate class <path>/<class-name>			#creates a new class. For e.g. ng generate class models/user
+
+
+#### index.html SAMPLE ###
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Angular4Auth</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <app-root></app-root>
+  </div>
+</body>
+</html>
