@@ -22,3 +22,10 @@ ng generate class <path>/<class-name>			#creates a new class. For e.g. ng genera
   </div>
 </body>
 </html>
+
+Git
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/yusufa84/sms-ang.git
+git push -u origin master
